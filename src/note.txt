@@ -1,0 +1,21 @@
+创建一个SpringMVC项目的步骤:
+
+1.创建一个web项目工程
+2.在web WEB-INF 创建lib文件夹，并导入相关jar包
+    spring核心jar包 - 20个
+    aop相关 - 3个
+    日志相关 - 2个
+    单元测试 - 1个
+    druid数据库连接池.jar
+    mysql数据库驱动.jar
+3.为项目工程设置spring特性
+4.创建一个Tomcat服务器并添加tomcat jar包
+5.在src下创建相关包
+6.在src下创建spring容器（核心配置文件）
+
+7.在src下创建springmvc核心配置文件 springmvc-config.xml
+    1.开启注解扫描器
+    2.开启SpringMVC注解功能
+    3.创建视图解析器
+
+8.在web.xml中配置springMVC的核心控制器
